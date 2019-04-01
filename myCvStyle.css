@@ -1,0 +1,195 @@
+
+        body 
+        {         
+          background-image: url(lightBlueSky.jpg);       
+        } 
+        h1
+        {   
+        text-align: center; 
+        font-size: 65px; 
+        margin-top: 0px; 
+        color:#fff;
+        text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);  
+               letter-spacing: 7px; 
+        }
+        p
+        { 
+          min-width: 960px;
+          max-width: 1420px; 
+          text-align: center;
+          padding: 5px;    
+          padding-left: 10px; 
+          font-size: 30px; 
+          font-family: Ariel, Ariel, serif; 
+          font-style: italic; 
+          font-weight: 1000; 
+            text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);  
+               letter-spacing: 1px;
+               color:#fff;            
+        }
+        div
+        { 
+          padding: 20px; 
+          min-width: 1060px;
+          max-width: 1520px;
+          margin: 0 auto;
+          background-image:url(blueSky.jpg); 
+          border-radius: 25px;
+          padding: 20px; 
+          width: 200px;
+          height: 210px; 
+          border-width:5px;  
+          border-top-style:groove;   
+        }
+        form
+        { 
+          padding-left: 40%;
+        } 
+        input
+        {                  
+          background:none; 
+          border:none;
+          font: bold italic 30px arial, helvetica, sans-serif;
+          color:#FFF;
+        }  
+        select 
+        {
+          padding: 9px;
+          margin-right: 30px; 
+          background-color: #778899;          
+          font: bold italic 20px arial, helvetica, sans-serif;
+          color:#FFF; 
+          border-style: dotted; 
+          border-width: 3px;  
+          min-width: 100px;
+          
+        } 
+        div.a 
+        {            
+            margin: 0 auto; 
+            margin-top: 20px; 
+            background-image: url(az.jpg); 
+            background-repeat:no-repeat; 
+            background-position: right; 
+            width: 600px;
+            height: 700px; 
+            background-color: #555; 
+            font: bold italic 50px arial, helvetica, sans-serif;             
+        } 
+        p.ab 
+        {  
+          text-align: left;
+          padding: 20px;  
+        } 
+        p.abc 
+        {
+          text-align: left;
+          padding: 3px; 
+          font-size: 35px;
+          letter-spacing: 1px; 
+        }   
+        p.abcd
+        {             
+            text-align: left; 
+            min-width:520px;            
+            width: 150px;
+            height: 630px;
+            overflow: auto;
+            padding: 8px; 
+            font-size: 35px;
+            margin-bottom: 100px;
+        } 
+        span
+        {  
+          font-size: 20px; 
+          border-top:1px  solid black; 
+          padding: 10px;
+        }
+        table 
+        {
+          border:3px dotted #fff;
+          margin-top: 50px;
+        }
+        td 
+        {
+          border:3px dotted #000;
+          padding: 8px 4px;          
+          font-size: 22px;color:#fff;
+          text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.5); 
+               letter-spacing: 0.7px;       
+        } 
+        span.aab
+        {         
+        padding: 100px; 
+        border:none;
+        width: 300px;
+        height: 300px;
+        background-image:url(littleCar.jpg); 
+        background-repeat: no-repeat;
+        position: relative;
+        -webkit-animation-name: car; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+        animation-name: car;
+        animation-duration: 6s;
+        }
+        @keyframes car 
+        {
+        0%   {background-image:url(littleCar.jpg); left:0px; top:0px;}
+        50%  {background-image:url(littleCar.jpg); left:300px; top:80px;}
+        75%  {background-color:url(littleCar.jpg); left:0px; top:80px;}
+        100% {background-color:url(littleCar.jpg); left:0px; top:0px;}
+        }
+        div.aabb
+        {         
+        padding: 100px; 
+        border:none;
+        width: 300px;
+        height: 300px;
+        background-image:url(arrowUp.jpg); 
+        background-repeat: no-repeat;
+        position: relative;
+        -webkit-animation-name: arrow; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+        animation-name: arrow;
+        animation-duration: 6s;
+        }
+        @keyframes arrow 
+        {
+        0%   {background-image:url(arrowUp.jpg); left:0px; bottom:0px;}
+        50%  {background-image:url(arrowUp.jpg); left:300px; bottom:200px;}
+        100% {background-color:url(arrowUp.jpg); left:300px; bottom:300px;}
+        }          
+    
